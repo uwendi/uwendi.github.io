@@ -10,14 +10,18 @@ I wanted a place of my own on the internet.
 
 Not a platform, not a feed. Just a place.
 
-Wendi’s Grotto is where I plan to share different kinds of writing:
-technical notes, research reflections, and more personal texts.
-Some are precise and practical, others more exploratory.
+Here, I plan to share different kinds of writing: reflections about myself and others, thoughts and ideas, images, research notes, engineering topics, and fragments that don’t always fit neatly into a category.
 
-What connects them is the same intention:
-to think carefully, learn openly, and to give shape to thoughts and intuitions that are still forming.
+The structure of the site reflects this diversity.  
 
-This site will evolve slowly.
-There is no fixed plan, only a direction.
+- *Posts* are for more regular writing.  
+- *Research & Archives* gathers earlier work from my past life in computer science and software engineering.  
+- *Projects* is a space for ongoing or new initiatives, whether professional or personal.  
+- And *Unconscious* is where I allow myself to share much more personal material.
+
+Together, these sections reflect different facets of who I am, and how I think.
+
+This site will evolve slowly.  
+There is no fixed plan. Only a direction.
 
 If you’re here, welcome.
