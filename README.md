@@ -1,2 +1,2 @@
-# uwendi.github.io
-Personal website and blog. Technical writing, research notes, and reflections.
+# Wendi’s Grotto
+A personal website and blog — technical writing, research notes, and reflections.
