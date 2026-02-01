@@ -38,3 +38,13 @@
 .footer-socials {
   margin-top: 0.5em;
 }
+
+.post-header h1 {
+  margin-bottom: 0.2em;
+}
+
+.post-date {
+  margin-top: 0;
+  font-size: 0.9em;
+  opacity: 0.75;
+}
