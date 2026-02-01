@@ -1,5 +1,6 @@
 ---
 title: Research & Archives
+permalink: /research/
 ---
 
 # Research & Archives
