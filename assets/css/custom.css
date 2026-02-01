@@ -35,7 +35,7 @@
   color: #666;
 
   float: none !important;
-  width: auto !important;
+  width: 100% !important;
   max-width: none !important;
   clear: both !important;
   display: block;
