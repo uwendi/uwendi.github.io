@@ -7,11 +7,6 @@
   display: flow-root;
 }
 
-/* Safety: ensure footer never rises beside floats */
-.site-footer {
-  clear: both;
-}
-
 /* =========================
    Navigation
    ========================= */
@@ -37,10 +32,29 @@
 .site-footer {
   margin-top: 3em;
   padding-top: 1.5em;
-  border-top: 1px solid #e0e0e0;
+
+  /* We'll draw a full-width separator with ::before instead */
+  border-top: none;
+
   font-size: 0.9em;
   color: #666;
   text-align: center;
+
+  /* Safety: ensure footer never rises beside theme floats */
+  clear: both;
+
+  /* Needed for the absolute-positioned ::before line */
+  position: relative;
+}
+
+.site-footer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 100vw;
+  transform: translateX(-50%);
+  border-top: 1px solid #e0e0e0;
 }
 
 .site-footer a {
