@@ -30,11 +30,9 @@
    ========================= */
 
 .site-footer {
-  margin-top: 3em;
-  padding-top: 1.5em;
-
-  /* We'll draw a full-width separator with ::before instead */
-  border-top: none;
+  /* more breathing room from the content above */
+  margin-top: 4em;
+  padding-top: 0;
 
   font-size: 0.9em;
   color: #666;
@@ -42,19 +40,20 @@
 
   /* Safety: ensure footer never rises beside theme floats */
   clear: both;
-
-  /* Needed for the absolute-positioned ::before line */
-  position: relative;
 }
 
+/* Full-bleed separator line (viewport width), even if footer is narrow */
 .site-footer::before {
   content: "";
-  position: absolute;
-  top: 0;
-  left: 50%;
+  display: block;
+
   width: 100vw;
-  transform: translateX(-50%);
+  margin-left: calc(50% - 50vw);
+
   border-top: 1px solid #e0e0e0;
+
+  /* spacing between line and footer text */
+  margin-bottom: 1.5em;
 }
 
 .site-footer a {
