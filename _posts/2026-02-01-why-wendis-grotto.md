@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Why Wendi’s Grotto
 date: 2026-02-01
 categories: [notes]
