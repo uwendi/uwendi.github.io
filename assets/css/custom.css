@@ -30,6 +30,11 @@
   text-decoration: underline;
 }
 
+.site-footer em {
+  font-style: normal;
+  opacity: 0.85;
+}
+
 .footer-socials {
   margin-top: 0.5em;
 }
