@@ -1,4 +1,20 @@
-/* Navigation */
+/* =========================
+   Global layout stability
+   ========================= */
+
+/* jekyll-theme-minimal uses floats on wide screens; contain them */
+.site-wrap {
+  display: flow-root;
+}
+
+/* Safety: ensure footer never rises beside floats */
+.site-footer {
+  clear: both;
+}
+
+/* =========================
+   Navigation
+   ========================= */
 
 .site-nav {
   margin: 1.5em 0;
@@ -14,7 +30,9 @@
   text-decoration: underline;
 }
 
-/* Footer */
+/* =========================
+   Footer
+   ========================= */
 
 .site-footer {
   margin-top: 3em;
@@ -23,7 +41,6 @@
   font-size: 0.9em;
   color: #666;
   text-align: center;
-  clear: both;        /* ensures footer starts below any floats */
 }
 
 .site-footer a {
@@ -44,10 +61,11 @@
   margin-top: 0.5em;
 }
 
-/* Posts */
+/* =========================
+   Posts
+   ========================= */
 
 .post-header {
-  /* Use padding + border to prevent margin-collapsing overlap */
   padding-bottom: 1.2rem;
   margin-bottom: 1.2rem;
   border-bottom: 1px solid #eee;
@@ -64,18 +82,6 @@
   opacity: 0.75;
 }
 
-.post-content {
-  /* Extra safety spacing (small but effective) */
-  padding-top: 0.2rem;
-}
-
-/* Ensure the first rendered element doesn't push up into the header */
 .post-content > :first-child {
   margin-top: 0;
-}
-
-/* Fix footer/content overlap caused by theme floats on wide screens */
-
-main.container {
-  display: flow-root; /* contains floats inside main */
 }
