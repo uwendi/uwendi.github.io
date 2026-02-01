@@ -20,6 +20,7 @@ More content will appear here gradually.
 - [About](/about/)
 - [Posts](/posts/)
 - [Research & Archives](/research/)
+- [Projects](/projects/)
 - [Unconscious](/unconscious/)
 
 <!-- 
