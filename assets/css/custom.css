@@ -46,7 +46,10 @@
 /* Posts */
 
 .post-header {
+  /* Use padding + border to prevent margin-collapsing overlap */
+  padding-bottom: 1.2rem;
   margin-bottom: 1.2rem;
+  border-bottom: 1px solid #eee;
 }
 
 .post-header h1 {
@@ -60,17 +63,12 @@
   opacity: 0.75;
 }
 
-/* Prevent content from collapsing into header */
-
-.post > :not(.post-header):first-child {
-  margin-top: 0;
-}
-
 .post-content {
-  margin-top: 1rem;
+  /* Extra safety spacing (small but effective) */
+  padding-top: 0.2rem;
 }
 
-.post-content p:first-child {
+/* Ensure the first rendered element doesn't push up into the header */
+.post-content > :first-child {
   margin-top: 0;
 }
-
