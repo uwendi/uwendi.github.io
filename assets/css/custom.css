@@ -41,6 +41,10 @@
   display: block;
 }
 
+.site-footer hr {
+  width: 100%;
+}
+
 .footer-socials {
   margin-top: 0.5em;
 }
