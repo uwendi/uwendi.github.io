@@ -1,5 +1,6 @@
 ---
 title: Unconscious
+permalink: /unconscious/
 ---
 
 # Unconscious
