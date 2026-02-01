@@ -2,9 +2,14 @@
    Global layout stability
    ========================= */
 
-/* jekyll-theme-minimal uses floats on wide screens; contain them */
+/* Contain theme floats on wide screens */
 .site-wrap {
   display: flow-root;
+}
+
+/* Extra safety: footer should always sit below any floats */
+.site-footer {
+  clear: both;
 }
 
 /* =========================
@@ -30,30 +35,15 @@
    ========================= */
 
 .site-footer {
-  /* more breathing room from the content above */
   margin-top: 4em;
-  padding-top: 0;
-
   font-size: 0.9em;
   color: #666;
   text-align: center;
-
-  /* Safety: ensure footer never rises beside theme floats */
-  clear: both;
 }
 
-/* Full-bleed separator line (viewport width), even if footer is narrow */
-.site-footer::before {
-  content: "";
-  display: block;
-
-  width: 100vw;
-  margin-left: calc(50% - 50vw);
-
-  border-top: 1px solid #e0e0e0;
-
-  /* spacing between line and footer text */
-  margin-bottom: 1.5em;
+/* Make the footer separator look like the header separator */
+.site-sep {
+  margin: 0 0 1.5em 0; /* space between line and footer text */
 }
 
 .site-footer a {
