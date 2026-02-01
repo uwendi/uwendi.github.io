@@ -37,13 +37,15 @@
   /* Override jekyll-theme-minimal desktop float layout */
   float: none !important;
   width: 100% !important;
-  /* max-width: none !important; */
+  max-width: none !important;
   clear: both !important;
   display: block;
 }
 
-.site-footer hr {
-  width: 100%;
+.footer-inner {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 1em;
 }
 
 .footer-socials {
