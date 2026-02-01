@@ -23,6 +23,7 @@
   font-size: 0.9em;
   color: #666;
   text-align: center;
+  clear: both;        /* ensures footer starts below any floats */
 }
 
 .site-footer a {
@@ -71,4 +72,10 @@
 /* Ensure the first rendered element doesn't push up into the header */
 .post-content > :first-child {
   margin-top: 0;
+}
+
+/* Fix footer/content overlap caused by theme floats on wide screens */
+
+main.container {
+  display: flow-root; /* contains floats inside main */
 }
