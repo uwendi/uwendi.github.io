@@ -15,6 +15,14 @@ More content will appear here gradually.
 
 ---
 
+## Explore
+
+- [About](about)
+- [Posts](posts)
+- [Research & Archives](research)
+- [Unconscious](unconscious)
+
+<!-- 
 ## Math test :)
 
 Inline math: $E = mc^2$
@@ -22,4 +30,4 @@ Inline math: $E = mc^2$
 $$
 \int_0^\infty e^{-x^2}\,dx = \frac{\sqrt{\pi}}{2}
 $$
-
+-->
