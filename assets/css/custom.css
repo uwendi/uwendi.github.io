@@ -1,0 +1,13 @@
+.site-nav {
+  margin: 1.5em 0;
+}
+
+.site-nav a {
+  margin-right: 1em;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.site-nav a:hover {
+  text-decoration: underline;
+}
