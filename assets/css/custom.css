@@ -65,3 +65,12 @@
 .post > :not(.post-header):first-child {
   margin-top: 0;
 }
+
+.post-content {
+  margin-top: 1rem;
+}
+
+.post-content p:first-child {
+  margin-top: 0;
+}
+
