@@ -17,11 +17,10 @@ More content will appear here gradually.
 
 ## Explore
 
-- [About](about)
-- [Posts](posts)
-- [Research & Archives](research)
-- [Projects](projects)
-- [Unconscious](unconscious)
+- [About](/about/)
+- [Posts](/posts/)
+- [Research & Archives](/research/)
+- [Unconscious](/unconscious/)
 
 <!-- 
 ## Math test :)
