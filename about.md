@@ -13,5 +13,5 @@ This site is *Wendi’s Grotto*: a personal space where I share technical writin
 If you want to reach me:
 - [GitHub](https://github.com/uwendi)
 - [LinkedIn](https://www.linkedin.com/in/uwendi)
-- [Istagram](https://www.instagram.com/we.urribarri)
+- [Instagram](https://www.instagram.com/we.urribarri)
 - [Twitter (now X)](https://x.com/wen_ur)
