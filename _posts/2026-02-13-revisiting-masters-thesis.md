@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Revisiting My Master’s Thesis: A Reconstructed and Guided Edition"
+title: "Revisiting my Master’s Thesis: A reconstructed and guided edition"
 date: 2026-02-13
 categories: [research, masters-thesis]
 tags: [formal verification, dfs, bfs, acl2, gacela, program derivation]
