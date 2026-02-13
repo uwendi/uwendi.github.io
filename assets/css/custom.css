@@ -2,9 +2,10 @@
    Global layout stability
    ========================= */
 
-/* Contain theme floats on wide screens */
+/* Keep normal document flow (prevents flex-based sticky footer layouts in some themes) */
 .site-wrap {
-  display: flow-root;
+  display: block !important;
+  min-height: auto !important;
 }
 
 /* =========================
@@ -29,16 +30,21 @@
    Footer
    ========================= */
 
+/* Force a normal, static footer in document flow (never fixed/sticky) */
 .site-footer {
   margin-top: 4em;
   font-size: 0.9em;
   color: #666;
 
+  position: static !important;
+  bottom: auto !important;
+
   float: none !important;
-  width: 100% !important;
-  max-width: none !important;
   clear: both !important;
-  display: block;
+  display: block !important;
+
+  width: auto !important;
+  max-width: none !important;
 }
 
 .site-footer hr {
