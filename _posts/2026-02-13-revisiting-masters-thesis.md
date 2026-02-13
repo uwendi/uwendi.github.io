@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "Revisiting my Master’s Thesis: A reconstructed and guided edition"
+title: "Revisiting My Master’s Thesis: A Reconstructed and Guided Edition"
 date: 2026-02-13
-categories: research archives
+categories: [research, masters-thesis]
 tags: [formal verification, dfs, bfs, acl2, gacela, program derivation]
+series: masters-thesis
 ---
 
 Nearly two decades ago, I wrote a Master’s thesis on the formal verification of graph algorithms — specifically, Depth-First Search (DFS) and Breadth-First Search (BFS). 
