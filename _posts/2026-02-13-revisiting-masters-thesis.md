@@ -29,7 +29,7 @@ Nevertheless, this is not a rewrite. It is a re-reading — with the benefit of 
 
 This thesis was not my first encounter with formal reasoning — it was my second. 
 My first sustained exploration of formal methods took place during my Bachelor’s thesis (Sep 2003–Dec 2004), focused on program derivation by refinement: 
-a prototype editor to derive correct programs from formal specifications in the framework of the refinement calculus as presented by Carroll Morgan, 
+a prototype editor to derive correct programs from formal specifications in the framework of [Carroll Morgan's refinement calculus](https://www.cs.ox.ac.uk/files/3391/PRG70.pdf), 
 using a language inspired by Dijkstra’s Guarded Command Language as implemented in _GaCeLa_. 
 A shorter version of that work was presented at [CLEI 2005](https://clei.org/en/proceedings-clei-en/) in Cali, Colombia, under the title *“Un Editor de Programas por Refinamiento.”*
 
