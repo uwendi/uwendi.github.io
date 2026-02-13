@@ -4,6 +4,8 @@ title: Research & Archives
 permalink: /research/
 ---
 
+<!-- build: {{ site.time | date: "%Y-%m-%d" }} -->
+
 # Research & Archives
 
 This section is for longer-form material and preserved work:
@@ -21,14 +23,12 @@ A reconstructed, translated, and lightly annotated edition of my Master’s thes
 
 Each chapter is published as a separate post, with educational notes and present-day commentary.
 
-{% raw %}
 <ul>
-  {% assign thesis_posts = site.categories["masters-thesis"] | sort: "date" | reverse %}
-  {% for post in thesis_posts %}
-    <li>
-      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-      <small> — {{ post.date | date: "%Y-%m-%d" }}</small>
-    </li>
-  {% endfor %}
+{% assign thesis_posts = site.categories["masters-thesis"] | sort: "date" | reverse %}
+{% for post in thesis_posts %}
+  <li>
+    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    <small> — {{ post.date | date: "%Y-%m-%d" }}</small>
+  </li>
+{% endfor %}
 </ul>
-{% endraw %}
